@@ -128,7 +128,11 @@
     position: absolute;
     top: 0.5em;
     left: 94%;
-    background-color: white;
+    background-color: white;   
+}
+
+.cuore:hover{
+    color: red;
 }
 
 .col-left:hover.up {
