@@ -92,20 +92,36 @@
     position: relative;
 }
 
-.container-didascalia div {
+.container-didascalia-up div {
     display: inline-block;
 }
 
-.container-didascalia div:first-child {
+.container-didascalia-up div:first-child {
     margin: 0em 0em 0em 6.5em;
 }
 
-.container-didascalia div:nth-child(2) {
-    margin: 0em 0em 0em 4em;
+.container-didascalia-up div:nth-child(2) {
+    margin: 0em 0em 0em 6.4em;
 }
 
-.container-didascalia div:nth-child(3) {
-    margin: 0em 0em 0em 4em;
+.container-didascalia-up div:nth-child(3) {
+    margin: 0em 0em 0em 10.8em;
+}
+
+.container-didascalia-down div {
+    display: inline-block;
+}
+
+.container-didascalia-down div:first-child {
+    margin: 0em 0em 0em 6.5em;
+}
+
+.container-didascalia-down div:nth-child(2) {
+    margin: 0em 0em 0em 10.8em;
+}
+
+.container-didascalia-down div:nth-child(3) {
+    margin: 0em 0em 0em 9.6em;
 }
 
 .cuore {
@@ -162,15 +178,14 @@
 
 h4 {
     text-transform: uppercase;
-    font-size: small;
+    font-size: x-small;
 }
 
 p {
-    font-size: small;
+    font-size: x-small;
 }
 
-.colore-prezzo 
-{
+.colore-prezzo {
     color: red;
     font-weight: 600;
 }
